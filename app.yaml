@@ -60,14 +60,14 @@ resources:
 
 env_variables:
   CLOUD_SQL_USERNAME: 'root'
-  CLOUD_SQL_PASSWORD: 'qardiosis123'
+  CLOUD_SQL_PASSWORD: ''
   CLOUD_SQL_DATABASE_NAME: 'qardiosis_db'
-  CLOUD_SQL_CONNECTION_NAME: 'qardiosis:asia-southeast2:qardiosisdb'
+  CLOUD_SQL_CONNECTION_NAME: 'kuis-Rakesh-BM6A:asia-southeast2:quiz-rakesh'
 
-  CLOUD_STORAGE_BUCKET_NAME: 'qardiosis_storage'
+  CLOUD_STORAGE_BUCKET_NAME: 'bucket-rakesh-bm6a'
 
 beta_settings:
-  cloud_sql_instances: qardiosis:asia-southeast2:qardiosisdb
+  cloud_sql_instances: kuis-Rakesh-BM6A:asia-southeast2:quiz-rakesh
 
 service_account: qardiosis@appspot.gserviceaccount.com
 # automatic_scaling:
